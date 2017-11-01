@@ -1,0 +1,14 @@
+﻿<Window x:Class="ReserveSystem.HoleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReserveSystem"
+        mc:Ignorable="d"
+        Title="HoleWindow" Height="300" Width="300">
+    <Grid>
+        <TextBlock Text="Здрвствуйте!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20"/>
+        <Button Content="Забронировать" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="100" Margin="0 0 30 50" Click="Button_Click"/>
+        <Button Content="Заказы" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="100" Margin="30 0 50 50" Click="Button_Click_1"/>
+    </Grid>
+</Window>

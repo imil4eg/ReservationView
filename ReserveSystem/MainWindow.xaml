@@ -1,0 +1,43 @@
+﻿<Window x:Class="ReserveSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReserveSystem"
+        mc:Ignorable="d"
+        Title="Вход" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Логин : " 
+                       HorizontalAlignment="Center"  
+                       VerticalAlignment="Center"
+                       />
+        <TextBox   Name="LoginBox" 
+                     HorizontalAlignment="Center" 
+                     VerticalAlignment="Bottom" 
+                     Width="130"
+                     Margin="0 0 0 30"
+                     />
+        <TextBlock  Text="Пароль : " 
+                       HorizontalAlignment="Center" 
+                       VerticalAlignment="Bottom" 
+                       />
+        <TextBox Name="PasswordBox" 
+                     Grid.Row="2" 
+                     HorizontalAlignment="Center" 
+                     VerticalAlignment="Top" 
+                     Width="130"  
+                     Margin="0 10 0 0"
+                     />
+        <Button Content="Войти" 
+                    Grid.Row="2" 
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center"
+                    Width="50" 
+                    Click="Button_Click"
+                    />
+    </Grid>
+</Window>

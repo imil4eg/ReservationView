@@ -1,0 +1,21 @@
+﻿<Window x:Class="ReserveSystem.ReserveWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReserveSystem"
+        mc:Ignorable="d"
+        Title="Резервация" Height="300" Width="300">
+    <Grid>
+        <TextBlock Text="Укажите количество людей : " HorizontalAlignment="Center" Margin="20"/>
+        <ComboBox HorizontalAlignment="Center" VerticalAlignment="Top" Margin="50" Width="100">
+            <TextBlock>1</TextBlock>
+            <TextBlock>2</TextBlock>
+            <TextBlock>3</TextBlock>
+            <TextBlock>4</TextBlock>
+        </ComboBox>
+        <TextBlock Text="Укажите время : " HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 0 0 50"/>
+        <ComboBox HorizontalAlignment="Center" VerticalAlignment="Center" Width="100"/>
+        <Button Content="Забронировать" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 0 20 20" Click="Button_Click"/>
+    </Grid>
+</Window>
